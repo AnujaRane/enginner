@@ -1,0 +1,19 @@
+career {
+    career related
+}
+experience {
+    current
+    past
+}
+personal {
+    personal detials
+}
+
+header {
+    home
+    about
+    career
+    experience - past, current working
+    personal
+    contact
+}
