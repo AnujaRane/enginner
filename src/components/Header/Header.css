@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container .logo {
+    color: #fff;
+    margin: 0 60px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+.header-container .nav_list {
+    width: 600px;
+    height: auto;
+    display: flex;
+    margin: 0 40px;
+    justify-content: space-between;
+}
+.nav_list ul {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.header-container .book-btn {
+    /* margin: 0 40px; */
+}
+.book-btn button {
+    width: 150px;
+    height: 41px;
+    background-color: #7B68EE;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media(max-width: 485px) {
+    .header-container .logo {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+}
+
+
+@media(max-width: 385px) {
+    .header-container .logo {
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .book-btn button {
+        width: 120px;
+        height: 35px;
+    }
+}
